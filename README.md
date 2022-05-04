@@ -57,4 +57,4 @@
 
 - Consider the block diagram of a computer system
 
-![Block Diagram](https://github.com/kushalSB/MALP/tree/master/PicsReadME/BlockDiagramOfComputer.png?raw=true)
+![Block Diagram](PicsReadMe/BlockDiagramOfComputer.png)
