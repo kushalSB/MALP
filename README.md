@@ -10,6 +10,19 @@
 
 [Top](#quick-access)
 
+## Table of Contents Chapter 1
+
+1. [MicroProcessor](#microprocessor)
+2. [MicroComputer](#microcomputer)
+3. [MicroController](#microcontroller)
+4. [Generation of Computer](#generations-of-computer)
+5. [IC Fabrication Technology](#ic-fabrication-technology)
+6. [History of Microprocessor](#history-of-microprocessor)
+7. [I/O interfacing device](#io-interfacing-devices)
+8. [Application of MicroProcessor](#application-of-microprocessor)
+9. [Bus Structure of Microprocessor](#bus-organization--structure-of-a-microprocessor)
+10. [Fetch Decode and Execute](#fetch-decode-execute-and-storage)
+
 ## MicroProcessor
 
 - CPU of a digitial computer built into a single IC chip
@@ -92,7 +105,7 @@ Some of them are:
 - Microcontroller
 - Industrial Controls
 - Robotics
-- MEdical Machine
+- Medical Machine
 - Washing Machine
 - Traffic Light control system,etc
 
@@ -118,3 +131,23 @@ Some of them are:
    - That carries control signals
    - The width of a bus depends upon the types of control signals used.
    - Control signals maybe memory read, memory write, I/O read, I/O write.
+
+## Fetch Decode Execute and Storage
+
+![Fetch Diagram](PicsReadMe/FetchDecodeExecute.png)
+
+1. Fetch Operations
+
+- In this operation instruction code and data from storage is loaded into the microprocessor.
+
+2. Decode Operations
+
+- Once the MPU gets the required data and instruction code, it uses the CU (Control Unit) to divide the information into a set of operations.
+
+3. Execute Operations
+
+- The operations divided by the CU are now executed by the ALU (Arithmetic and Logic Unit) and passed to the Storage(Memory).
+
+4. Storage
+
+- It stores data and/or instruction code.
